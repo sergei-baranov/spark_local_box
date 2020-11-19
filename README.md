@@ -45,4 +45,4 @@ run jobs by exec (set all params explicitly, spark_local_box.conf will have no e
 
 контейнер подмана в простейшем виде мониторим как-то так
 
-    sudo podman stats --no-rese
+    sudo podman stats --no-reset
