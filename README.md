@@ -43,4 +43,6 @@ run jobs by exec (set all params explicitly, spark_local_box.conf will have no e
     
     sudo podman exec -t spark_local_box_1 /usr/local/spark/bin/spark-submit --conf spark.ui.enabled=false|true --class ... --master local[2] local:/shara/....jar param param param
 
-    
+контейнер подмана в простейшем виде мониторим как-то так
+
+    sudo podman stats --no-rese
